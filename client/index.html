@@ -1,0 +1,95 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+  <title>PHP Login Registration Using MySQL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="../js/validation.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <div class="header">
+    Welcome To Login & Registration
+  </div>
+  <div class="container">
+    <div class="Reg">
+      <div class="top">
+        <p style="text-align:left"> Registration</p>
+      </div>
+      <form class="form-horizontal" name="registrationForm" action="../server/user_registration.php" method="POST">
+        <fieldset>
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="username">User Name</label>
+            <div class="col-md-5">
+              <input id="username" name="username" type="text" placeholder="Your Username" class="form-control input-md">
+
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="email">e-Mail</label>
+            <div class="col-md-5">
+              <input id="email" name="email" type="text" placeholder="Your eMail" class="form-control input-md">
+
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="password">Password</label>
+            <div class="col-md-5">
+              <input id="password" name="password" type="password" placeholder="Your Password" class="form-control input-md">
+
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="photo">Photo</label>
+            <div class="col-md-4">
+              <input id="photo" name="photo" class="input-file" type="file">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-4">
+              <button class="btn btn-block btn=default" type="button" value="Register" id="singlebutton" name="btnSubmit" onclick="return validate()">Registration</button>
+            </div>
+          </div>
+
+        </fieldset>
+      </form>
+    </div>
+    <div class="login">
+      <div class="top">
+        Login
+      </div>
+      <form class="form-horizontal" name="loginForm" action="../server/logincheck.php" method="POST">
+        <fieldset>
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="username">User Name</label>
+            <div class="col-md-5">
+              <input id="username" name="username" type="text" placeholder="Your Username" class="form-control input-md">
+
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="password">Password</label>
+            <div class="col-md-5">
+              <input id="password" name="password" type="password" placeholder="Your Password" class="form-control input-md">
+
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-4">
+              <button class="btn btn-block btn-default" type="submit" value="Login" name="btnSubmit">Login</button>
+            </div>
+          </div>
+
+        </fieldset>
+      </form>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

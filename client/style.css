@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-columns: 700px 500px;
+
+}
+.header{
+  font-size: 40px;
+  text-align: center;
+  color: teal;
+}
+.top{
+  font-size: 30px;
+  text-align: center;
+  color: teal;
+}

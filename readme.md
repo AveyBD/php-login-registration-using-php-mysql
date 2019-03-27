@@ -1,4 +1,5 @@
 #php Login Signup using mysql
+
 Simple php registration & signin project with mysql.  The  index files is in client folder. I have put those in client server and javascript folder because my faculty told us to follow the structure :/ 
 You can simply change it and make is standard . 
 

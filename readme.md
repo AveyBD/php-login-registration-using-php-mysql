@@ -1,7 +1,12 @@
+Lab Prject
+
 #php Login Signup using mysql
 
 Simple php registration & signin project with mysql.  The  index files is in client folder. I have put those in client server and javascript folder because my faculty told us to follow the structure :/ 
 You can simply change it and make is standard . 
+
+Screenshot
+![ScreenshotOfIndex](https://raw.githubusercontent.com/AveyBD/php-login-registration-using-php-mysql/master/Screenshot_2019-04-03%20Welcome.png)
 
 #Database
 Create a database in phpmyadmin and run the code in SQL. Done
